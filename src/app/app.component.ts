@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'PT15312-WEB';
+  name = 'Chun';
+  changeName(e:any){
+    this.name = e.target.value
+  }
 }
